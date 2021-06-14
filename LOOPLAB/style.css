@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #5b6164;
+}
+
+/* common thing */
+
+#home i {
+    color: blue;
+    background: white;
+}
+#explore i{
+    color: blue;
+    background: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* header */
+nav {
+    background: #2E3031;
+    opacity: 0.6;
+    border-bottom: 1px solid blue;
+}
+
+.nav-link {
+    color: white;
+    opacity: 0.7;
+}
+
+
+
+
+/* HOME */
+
+#home {
+    background: url("PICTURE/comp.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
+
+}
+
+#home h1, #home p, #home h2{
+    color: white;
+}
+
+
+
+
+
+
+
+.card {
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+
+
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:575px) {
+    .col-md-4 {
+        padding: 100px 10px;
+    }
+}
+
+
+
+
+
+@media screen and (min-width:576px) {
+    #home .container {
+        padding: 80px 0;
+    }
+}
+
+
+
+
+
+@media screen and (min-width:768px) {
+    #home .container {
+        padding: 100px 0;
+    }
+}
+
+
+
+
+
+@media screen and (min-width:992px) {
+
+    #home .container {
+        padding: 150px 0;
+    }
+
+
+
+
+
+
+
+
+}
